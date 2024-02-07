@@ -18,3 +18,26 @@ Ensure you have the following software installed on your machine:
 
    ```bash
    git clone https://github.com/gazeous1/EAD_Ajax.git
+2.Navigate to the project directory:
+
+cd EAD_Ajax
+
+Running the Project
+Open the index.html file in your preferred web browser.
+
+Explore the project and interact with the Ajax functionality.
+
+Built With
+HTML
+CSS
+JavaScript (Ajax)
+Contributing
+Feel free to contribute to the project by opening issues or submitting pull requests.
+
+License
+This project is licensed under the MIT License.
+
+Acknowledgments
+Ajax documentation
+Inspiration from example project
+Happy coding!
