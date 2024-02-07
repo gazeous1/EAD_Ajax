@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Search</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+    }
+
+    header {
+      background-color: #232323;
+      padding: 1em;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #fff;
+    }
+
+    input {
+      width: calc(100% - 20px);
+      padding: 10px;
+      box-sizing: border-box;
+      margin: 8px 0;
+      border: none;
+      border-bottom: 2px solid #767676;
+      background-color: #1c1c1c;
+      color: #fff;
+      outline: none;
+    }
+
+    input::placeholder {
+      color: #767676;
+    }
+
+    button {
+      background-color: #f5c518;
+      color: #000;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #d2a106;
+    }
+
+    #result {
+      margin-top: 20px;
+      background-color: #232323;
+      color: #fff;
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="margin: 0;">Movie Search</h1>
+  </header>
+
+  <main>
+    <label for="movie">Enter Movie Title:</label>
+    <input type="text" id="movie" placeholder="E.g., Inception">
+    <button onclick="searchMovie()">Search Movie</button>
+
+    <div id="result"></div>
+  </main>
+
+  <script src="ajax.js"></script>
+</body>
+</html>
